@@ -7,6 +7,6 @@ Repository with basic configuration for the Django Workshop of Celtiberian S.L. 
 -Default SQlite as the database  
 
 ## Useful commands
-**- Launch project:** `django-compose up`  
-**- Generate migrations:** `django-compose up run web manage.py makemigrations`  
-**- Apply migrations:** `django-compose up run web manage.py migrate`  
+**- Launch project:** `docker-compose up`  
+**- Generate migrations:** `docker-compose up run web manage.py makemigrations`  
+**- Apply migrations:** `docker-compose up run web manage.py migrate`  

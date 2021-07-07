@@ -8,5 +8,6 @@ Repository with basic configuration for the Django Workshop of Celtiberian S.L. 
 
 ## Useful commands
 **- Launch project:** `docker-compose up`  
-**- Generate migrations:** `docker-compose up run web python manage.py makemigrations`  
-**- Apply migrations:** `docker-compose up run web python manage.py migrate`  
+**- Generate migrations:** `docker-compose run web python manage.py makemigrations`  
+**- Apply migrations:** `docker-compose run web python manage.py migrate`  
+**- Create super user :** `docker-compose run web python manage.py createsuperuser`  
